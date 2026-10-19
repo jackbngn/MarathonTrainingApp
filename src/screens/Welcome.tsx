@@ -1,9 +1,10 @@
 import './Welcome.css';
+import logo from '../assets/logo.svg';
 
 function Welcome() {
 	return (
 		<div className="welcome">
-			<div className="logo">Logo</div>
+			<img src={logo} alt="logo" />
 			<h1>Start your running journey</h1>
 			<p>Answer a few questions and get a plan that fits you</p>
 			<label htmlFor="email">Email</label>
