@@ -1,4 +1,4 @@
-import './Welcome.css';
+import '../css/Welcome.css';
 import logo from '../assets/logo.svg';
 
 function Welcome() {

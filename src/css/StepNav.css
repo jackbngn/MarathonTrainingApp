@@ -1,0 +1,22 @@
+.nav {
+	display: flex;
+	gap: 12px;
+}
+
+.next {
+	background-color: #2b2b2b;
+	color: #fff;
+	border: none;
+	border-radius: 12px;
+	height: 52px;
+	flex: 1;
+}
+
+.back {
+	background-color: transparent;
+	color: #2b2b2b;
+	border: 2px solid #2b2b2b;
+	border-radius: 12px;
+	height: 52px;
+	flex: 1;
+}
