@@ -1,0 +1,34 @@
+.createAccount {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 520px;
+	margin: 0 auto;
+	padding: 32px 24px;
+}
+
+.createAccount h1 {
+	color: #2b2b2b;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 0;
+}
+
+.panel input {
+	height: 48px;
+	border-radius: 12px;
+	border: 2px solid #c9c8c0;
+	padding: 0 14px;
+	font-weight: 500;
+}
+
+.panel label {
+	color: #2b2b2b;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#password {
+	font-size: 16px;
+	color: #5c5b55;
+}

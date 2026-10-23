@@ -3,12 +3,14 @@ import Goal from './screens/Goal';
 import Welcome from './screens/Welcome';
 import Level from './screens/Level';
 import { useState } from 'react';
+import CreateAccount from './screens/CreateAccount';
 
 function App() {
-	const [screen, setScreen] = useState('goal');
+	const [screen, setScreen] = useState('createAccount');
 	return (
 		<>
 			{screen === 'welcome' && <Welcome />}
+			{screen === 'createAccount' && <CreateAccount />}
 			{screen === 'goal' && (
 				<Goal
 					onBack={() => setScreen('welcome')}
