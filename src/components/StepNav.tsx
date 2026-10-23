@@ -1,10 +1,26 @@
 import '../css/StepNav.css';
 
-function StepNav({ back, next }: { back: string; next: string }) {
+function StepNav({
+	back,
+	next,
+	onBack,
+	onNext,
+	disabled,
+}: {
+	back: string;
+	next: string;
+	onBack: () => void;
+	onNext: () => void;
+	disabled: boolean;
+}) {
 	return (
 		<div className="nav">
-			<button className="back">{back}</button>
-			<button className="next">{next}</button>
+			<button className="back" onClick={onBack}>
+				{back}
+			</button>
+			<button className="next" onClick={onNext} disabled={disabled}>
+				{next}
+			</button>
 		</div>
 	);
 }

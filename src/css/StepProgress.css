@@ -1,0 +1,11 @@
+.track {
+	height: 6px;
+	background-color: lightgray;
+	border-radius: 10px;
+}
+
+.fill {
+	height: 6px;
+	background-color: #2b2b2b;
+	border-radius: 10px;
+}

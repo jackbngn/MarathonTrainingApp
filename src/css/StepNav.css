@@ -1,6 +1,7 @@
 .nav {
 	display: flex;
 	gap: 12px;
+	margin-top: 24px;
 }
 
 .next {
@@ -19,4 +20,18 @@
 	border-radius: 12px;
 	height: 52px;
 	flex: 1;
+}
+
+.back:hover {
+	cursor: pointer;
+	background-color: rgba(43, 43, 43, 0.08);
+}
+
+.next:hover {
+	cursor: pointer;
+	background-color: #444;
+}
+
+.next:disabled {
+	background-color: #999;
 }

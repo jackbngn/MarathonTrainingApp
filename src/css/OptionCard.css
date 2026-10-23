@@ -19,3 +19,8 @@
 	cursor: pointer;
 	background-color: rgba(43, 43, 43, 0.08);
 }
+
+.card.selected {
+	border-color: #2b2b2b;
+	background-color: rgba(43, 43, 43, 0.14);
+}

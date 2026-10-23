@@ -2,8 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
-	max-width: 390px;
-	margin: 0 auto;
+	max-width: 520;
+	margin: 10vh;
 	padding: 32px 24px;
 	line-height: normal;
 }
