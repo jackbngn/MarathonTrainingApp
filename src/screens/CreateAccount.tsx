@@ -3,6 +3,7 @@ import '../css/CreateAccount.css';
 function CreateAccount() {
 	return (
 		<div className="createAccount">
+			<button className="backButton">&larr; Back</button>
 			<div className="panel">
 				<h1>Create your account</h1>
 				<p>
@@ -18,8 +19,22 @@ function CreateAccount() {
 					Password
 				</label>
 				<input type="password" id="password" placeholder="Password" />
-				<p id="password">At least 8 charcters</p>
+				<p id="passwordText">At least 8 charcters</p>
+				<button id="create">Create account</button>
+				<div className="divider">
+					<div className="line"></div>
+					<span>or</span>
+					<div className="line"></div>
+				</div>
+				<button className="social">Continue with Google</button>
+				<button className="social">Continue with Apple</button>
 			</div>
+			<p className="terms">
+				By creating an account you agree to the Terms and Privacy Policy.
+			</p>
+			<p className="signInText">
+				Already have an account? <button className="linkButton">Sign in</button>
+			</p>
 		</div>
 	);
 }
